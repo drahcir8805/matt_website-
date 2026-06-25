@@ -9,7 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.0",
     "@neondatabase/serverless": "^1.1.0",
+    "ai": "^7.0.2",
     "better-auth": "^1.6.20",
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.45.2",
