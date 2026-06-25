@@ -60,9 +60,7 @@ const screen = {
     <!-- HERO -->
     <div style="position:relative; height:600px; overflow:hidden;">
       <div style="position:absolute; inset:0; background:url('/work/hero.webp') center/cover;"></div>
-      <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(42,36,32,0.4) 0%, rgba(42,36,32,0) 30%, rgba(42,36,32,0) 50%, rgba(42,36,32,0.68) 100%);"></div>
-      <div style="position:absolute; left:50%; top:42%; transform:translate(-50%,-50%); font-family:ui-monospace,monospace; font-size:10px; letter-spacing:0.08em; color:rgba(246,241,234,0.5);">[ hero · golden hour ]</div>
-      <!-- status bar -->
+      <div style="position:absolute; inset:0; background:linear-gradient(to bottom, rgba(42,36,32,0.4) 0%, rgba(42,36,32,0) 30%, rgba(42,36,32,0) 50%, rgba(42,36,32,0.68) 100%);"></div>      <!-- status bar -->
       <div style="position:absolute; top:0; left:0; right:0; display:flex; justify-content:space-between; align-items:center; padding:14px 24px 0; font-size:13px; font-weight:600; color:#F6F1EA;"><span>9:41</span><span style="letter-spacing:0.12em;">▢ ▢ ▣</span></div>
       <!-- nav -->
       <div style="position:absolute; top:44px; left:0; right:0; display:flex; align-items:center; justify-content:space-between; padding:6px 24px;">
