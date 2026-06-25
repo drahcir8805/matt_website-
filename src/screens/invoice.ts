@@ -1,0 +1,79 @@
+// AUTO-GENERATED from design canvas — edit the design or regenerate.
+
+const screen = {
+  desktop: `<div style="width:1440px; height:1160px; background:#EFE8DE; border-radius:3px; overflow:hidden; box-shadow:0 1px 3px rgba(0,0,0,.08); position:relative; font-family:'Mulish',sans-serif; color:#2A2420; display:flex; align-items:center; justify-content:center;">
+    <div style="width:980px; background:#FBF8F3; box-shadow:0 40px 90px -50px rgba(42,36,32,0.55); padding:14px;">
+      <div style="border:1px solid rgba(176,141,87,0.5); padding:52px 56px; display:flex; gap:52px;">
+        <!-- LEFT: invoice -->
+        <div style="flex:1.55;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:1px solid rgba(42,36,32,0.16); padding-bottom:26px; margin-bottom:28px;">
+            <div>
+              <div style="display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; border:1px solid rgba(176,141,87,0.6); border-radius:50%; font-family:'Cormorant Garamond',serif; font-size:16px; color:#B08D57; margin-bottom:14px;">MR</div>
+              <div style="font-family:'Cormorant Garamond',serif; font-size:23px; font-weight:600;">Matt Photography</div>
+            </div>
+            <div style="text-align:right;"><div style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:30px; color:#B08D57; line-height:1;">Invoice</div><div style="font-size:12px; color:#9a8b7d; margin-top:12px; line-height:1.7;">No. INV-0614<br>Due 15 May 2025</div></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-bottom:30px; font-size:14px;"><div><div style="font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#9a8b7d; margin-bottom:7px;">Billed to</div><div style="font-family:'Cormorant Garamond',serif; font-size:19px;">Eleanor &amp; James</div></div><div style="text-align:right;"><div style="font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#9a8b7d; margin-bottom:7px;">Event date</div><div style="font-family:'Cormorant Garamond',serif; font-size:19px;">14 June 2025</div></div></div>
+          <div style="font-size:15px;">
+            <div style="display:flex; justify-content:space-between; padding:14px 0; border-bottom:1px dotted rgba(42,36,32,0.2);"><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">Full-day coverage</span><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">$4,800</span></div>
+            <div style="display:flex; justify-content:space-between; padding:14px 0; border-bottom:1px dotted rgba(42,36,32,0.2);"><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">Second photographer</span><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">$1,200</span></div>
+            <div style="display:flex; justify-content:space-between; padding:14px 0; border-bottom:1px dotted rgba(42,36,32,0.2);"><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">Fine-art album</span><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">$950</span></div>
+            <div style="display:flex; justify-content:space-between; padding:14px 0; border-bottom:1px dotted rgba(42,36,32,0.2);"><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">Engagement session</span><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">$700</span></div>
+            <div style="display:flex; justify-content:space-between; padding:14px 0;"><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">Travel — Sonoma</span><span style="font-family:'Cormorant Garamond',serif; font-size:18px;">$250</span></div>
+          </div>
+          <div style="margin-top:14px; border-top:1px solid rgba(42,36,32,0.16); padding-top:14px;">
+            <div style="display:flex; justify-content:space-between; padding:7px 0; font-size:14px; color:#6B5F54;"><span>Subtotal</span><span>$7,900</span></div>
+            <div style="display:flex; justify-content:space-between; padding:7px 0; font-size:14px; color:#6B5F54;"><span>Balance, due 15 May 2026</span><span>$5,530</span></div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline; padding:14px 0 0; border-top:1px solid rgba(42,36,32,0.16); margin-top:8px;"><span style="font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:#9a8b7d;">Due today · deposit</span><span style="font-family:'Cormorant Garamond',serif; font-size:34px;">$2,370</span></div>
+          </div>
+        </div>
+
+        <!-- RIGHT: pay panel -->
+        <div style="flex:1; background:#F3E9DF; border:1px solid rgba(176,141,87,0.4); border-radius:4px; padding:34px 30px; align-self:flex-start;">
+          <div style="font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:#9a8b7d; margin-bottom:8px;">Amount due today</div>
+          <div style="font-family:'Cormorant Garamond',serif; font-size:48px; line-height:1; margin-bottom:28px;">$2,370<span style="font-size:18px; color:#9a8b7d;"> USD</span></div>
+          <label style="display:block; font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#9a8b7d; margin-bottom:9px;">Card information</label>
+          <div style="background:#FBF8F3; border:1px solid rgba(42,36,32,0.18); border-radius:4px; overflow:hidden; margin-bottom:18px;">
+            <div style="display:flex; align-items:center; justify-content:space-between; padding:14px 16px; border-bottom:1px solid rgba(42,36,32,0.12);"><span style="font-size:15px; color:#b3a596; letter-spacing:0.04em;">1234&nbsp;1234&nbsp;1234&nbsp;1234</span><span style="display:flex; gap:4px;"><span style="width:24px; height:15px; border-radius:2px; background:#9a8b7d;"></span><span style="width:24px; height:15px; border-radius:2px; background:#c9b9a6;"></span></span></div>
+            <div style="display:flex;"><span style="flex:1; padding:14px 16px; border-right:1px solid rgba(42,36,32,0.12); font-size:15px; color:#b3a596;">MM / YY</span><span style="flex:1; padding:14px 16px; font-size:15px; color:#b3a596;">CVC</span></div>
+          </div>
+          <a class="invod0" href="#" style="display:flex; align-items:center; justify-content:center; gap:11px; padding:18px; background:#B08D57; color:#F6F1EA; font-size:12px; font-weight:600; letter-spacing:0.22em; text-transform:uppercase; border:1px solid #9c794a; border-radius:3px; box-shadow:inset 0 1px 0 rgba(255,255,255,0.3), 0 16px 30px -18px rgba(42,36,32,0.7); text-decoration:none;" >Pay with card</a>
+          <div style="display:flex; align-items:center; justify-content:center; gap:7px; margin-top:18px; font-size:11px; letter-spacing:0.06em; color:#9a8b7d;">
+            <span style="display:inline-block; position:relative; width:10px; height:8px; background:#9a8b7d; border-radius:1px;"><span style="position:absolute; left:2px; top:-5px; width:6px; height:6px; border:1.5px solid #9a8b7d; border-bottom:none; border-radius:4px 4px 0 0;"></span></span>
+            Secured payments by Stripe
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>`,
+  mobile: `<div style="width:390px; min-height:1080px; background:#EFE8DE; border-radius:26px; overflow:hidden; box-shadow:0 1px 3px rgba(0,0,0,.08); position:relative; font-family:'Mulish',sans-serif; color:#2A2420;">
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:16px 24px 0; font-size:13px; font-weight:600;"><span>9:41</span><span style="letter-spacing:0.12em;">▢ ▢ ▣</span></div>
+    <div style="padding:18px 16px 26px;">
+      <div style="background:#FBF8F3; box-shadow:0 30px 60px -44px rgba(42,36,32,0.5); padding:9px; margin-bottom:16px;">
+        <div style="border:1px solid rgba(176,141,87,0.5); padding:30px 26px 32px;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:1px solid rgba(42,36,32,0.16); padding-bottom:18px; margin-bottom:20px;"><div style="font-family:'Cormorant Garamond',serif; font-size:18px; font-weight:600; max-width:140px;">Matt Photography</div><div style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:24px; color:#B08D57;">Invoice</div></div>
+          <div style="font-size:14px;">
+            <div style="display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px dotted rgba(42,36,32,0.2);"><span style="font-family:'Cormorant Garamond',serif; font-size:16px;">Full-day coverage</span><span style="font-family:'Cormorant Garamond',serif; font-size:16px;">$4,800</span></div>
+            <div style="display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px dotted rgba(42,36,32,0.2);"><span style="font-family:'Cormorant Garamond',serif; font-size:16px;">Second photographer</span><span style="font-family:'Cormorant Garamond',serif; font-size:16px;">$1,200</span></div>
+            <div style="display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px dotted rgba(42,36,32,0.2);"><span style="font-family:'Cormorant Garamond',serif; font-size:16px;">Fine-art album</span><span style="font-family:'Cormorant Garamond',serif; font-size:16px;">$950</span></div>
+            <div style="display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px dotted rgba(42,36,32,0.2);"><span style="font-family:'Cormorant Garamond',serif; font-size:16px;">Engagement &amp; travel</span><span style="font-family:'Cormorant Garamond',serif; font-size:16px;">$950</span></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; padding:16px 0 0; margin-top:8px; border-top:1px solid rgba(42,36,32,0.16);"><span style="font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9a8b7d;">Due today</span><span style="font-family:'Cormorant Garamond',serif; font-size:28px;">$2,370</span></div>
+        </div>
+      </div>
+      <!-- pay -->
+      <div style="background:#F3E9DF; border:1px solid rgba(176,141,87,0.4); border-radius:4px; padding:26px 22px;">
+        <label style="display:block; font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#9a8b7d; margin-bottom:9px;">Card information</label>
+        <div style="background:#FBF8F3; border:1px solid rgba(42,36,32,0.18); border-radius:4px; overflow:hidden; margin-bottom:16px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; padding:13px 14px; border-bottom:1px solid rgba(42,36,32,0.12);"><span style="font-size:14px; color:#b3a596;">1234&nbsp;1234&nbsp;1234&nbsp;1234</span><span style="width:22px; height:14px; border-radius:2px; background:#9a8b7d;"></span></div>
+          <div style="display:flex;"><span style="flex:1; padding:13px 14px; border-right:1px solid rgba(42,36,32,0.12); font-size:14px; color:#b3a596;">MM / YY</span><span style="flex:1; padding:13px 14px; font-size:14px; color:#b3a596;">CVC</span></div>
+        </div>
+        <a href="#" style="display:flex; align-items:center; justify-content:center; padding:17px; background:#B08D57; color:#F6F1EA; font-size:11px; font-weight:600; letter-spacing:0.22em; text-transform:uppercase; border:1px solid #9c794a; border-radius:3px; box-shadow:inset 0 1px 0 rgba(255,255,255,0.3); text-decoration:none;">Pay $2,370 with card</a>
+        <div style="display:flex; align-items:center; justify-content:center; gap:7px; margin-top:15px; font-size:10px; color:#9a8b7d;"><span style="display:inline-block; position:relative; width:9px; height:7px; background:#9a8b7d; border-radius:1px;"><span style="position:absolute; left:2px; top:-4px; width:5px; height:5px; border:1.5px solid #9a8b7d; border-bottom:none; border-radius:3px 3px 0 0;"></span></span>Secured by Stripe</div>
+      </div>
+    </div>
+  </div>`,
+  css: `.invod0:hover{transform:translateY(-2px); background:#a8814d;}`,
+};
+
+export default screen;
